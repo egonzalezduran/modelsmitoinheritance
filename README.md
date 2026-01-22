@@ -1,4 +1,5 @@
 ###R Code for statistics and modelling###
+
 #For the article "High-frequency biparental inheritance of plant mitochondria upon chilling stress and loss of a genome-degrading nuclease"                                                                                                                                         
 #by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*(2026)                                                                                                                                    
 #Version 22.01.26 by Enrique Gonzalez-Duran, Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                                                                                                                                                                                                   
