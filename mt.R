@@ -3,7 +3,7 @@
 ## High-frequency biparental inheritance of plant mitochondria upon chilling stress and loss of a genome-degrading nuclease                                                                                                                                      ###  
 ## by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*  ###
 ## 2026                                                                                                                                 ###    
-## Version 22.01.25 by Enrique Gonzalez-Duran                                                                                           ###                                                                                                  
+## Version 22.01.26 by Enrique Gonzalez-Duran                                                                                           ###                                                                                                  
 ## R version 4.3.3                                                                                                                      ###  
 ## Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                                                            ###                                                                                                                                       ###
 ######################################################################################################################################  ###                         
@@ -208,6 +208,7 @@ dev.off()
 sink(file= "positive pools expected at given transmission frequency.txt")
 summary.mitoprobs 
 sink()
+
 
 
 
