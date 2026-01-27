@@ -1,11 +1,11 @@
 
 ####################### R Code for statistics and modelling ###############################################################################
-## High-frequency biparental inheritance of plant mitochondria upon chilling stress and loss of a genome-degrading nuclease                                                                                                                                      ###  
+## High-frequency biparental inheritance of plant mitochondria upon chilling stress and loss of a genome-degrading nuclease                                                                                                                                        
 ## by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*  ###
 ## 2026                                                                                                                                 ###    
 ## Version 22.01.26 by Enrique Gonzalez-Duran                                                                                           ###                                                                                                  
 ## R version 4.3.3                                                                                                                      ###  
-## Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                                                            ###                                                                                                                                       ###
+## Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                                                            ###                                                                                                                                      
 ######################################################################################################################################  ###                         
 
 ##This code is set to work in R version 4.3.3.
@@ -48,9 +48,9 @@ sink()
 dfGCplot<- as.data.frame(read.table("data_for_GC_comparison_plot.txt", header = TRUE)) #passes data table from .txt file to a data frame
 dfGCplot
 plot.GC <- ggplot(dfGCplot,aes(x=Group,y=Value,fill=Group))+
-  geom_boxplot(outlier.size = 0, alpha=0.7, linewidth=0.5, show.legend=FALSE)+
   scale_y_continuous(limits=c(0,10),breaks = c(0,1,2,3,4,5,6,7,8,9,10),labels=c(0," ",2," ",4," ",6," ",8," ",10))+
-  geom_point(aes(fill=Group),alpha = 0.9, size = 4, shape=21, show.legend=FALSE, position = position_jitter(width = 0.3,height = 0,seed=10))+
+  geom_point(aes(fill=Group),alpha = 0.9, size = 4, shape=21, show.legend=FALSE, position = position_dodge2(width=0.7,preserve="total"))+
+  stat_summary(fun = "median", fun.min = "median", fun.max= "median", size= 0.3, geom = "crossbar")+
   scale_fill_manual(values=c("#1F78B4","#faaa44"))+          
   xlab(" ") +
   ylab("Number of mitochondria in GC") +
@@ -208,6 +208,7 @@ dev.off()
 sink(file= "positive pools expected at given transmission frequency.txt")
 summary.mitoprobs 
 sink()
+
 
 
 
