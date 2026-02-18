@@ -1,4 +1,4 @@
-###R Code for statistics and modelling###
+###R Code for statistics and modelling of mitochondrial transmission###
 
 #For the article "High-frequency biparental inheritance of plant mitochondria upon chilling stress and loss of a genome-degrading nuclease"                                                                                                                                         
 #by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*(2026)                                                                                                                                    
