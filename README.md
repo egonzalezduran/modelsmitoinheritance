@@ -1,8 +1,8 @@
 ###R Code for statistics and modelling of mitochondrial transmission###
-
+### Repository release v0.2.0 DOI: 10.5281/zenodo.18684524
 ###For the article "High-frequency biparental inheritance of plant mitochondria upon chilling stress and loss of a genome-degrading nuclease"
 
-###Accepted 3 Feb 2026 in Nature Plants. DOI: 10.1038/s41477-026-02242-7 
+###Accepted 3 Feb 2026 in Nature Plants. Article DOI: 10.1038/s41477-026-02242-7 
 
 ###by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*(2026)
  
